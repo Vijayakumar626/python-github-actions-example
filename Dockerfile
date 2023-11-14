@@ -13,5 +13,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the entire project to the working directory
 COPY . .
 
+# Port 
+EXPOSE 8080
+
 # Define the command to run your application
 CMD ["python", "your_script.py"]
